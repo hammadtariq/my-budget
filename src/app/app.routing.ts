@@ -12,6 +12,7 @@ const appRoutes: Routes = [
    { path: 'today-budget/:budgetRef', component: TodayBudgetComponent },
    { path: 'budget-history', component: BudgetHistoryComponent },
    { path: '', component: LandingPageComponent, canActivate: [CanActivateViaAuthGuard], },
+   { path: 'my-budget', component: LandingPageComponent, canActivate: [CanActivateViaAuthGuard], },
 ];
 
 export const appRoutingProviders: any[] = [
