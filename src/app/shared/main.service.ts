@@ -26,18 +26,6 @@ export class MainService {
   spendMoneyData: Observable<Object>;
   constructor(private router: Router) {}
 
-  isOnline() {
-    let connectedRef = database.ref('.info/connected');
-    return connectedRef.once('value');
-    // connectedRef.on('value', function(snap) {
-    //   if (snap.val() === true) {
-    //     return true;
-    //   } else {
-    //     return false;
-    //   }
-    // });
-  }
-
   getStarted(username) {
       let vm = this;
       database.ref('users/' + username).once('value', (snapshot) => {
@@ -45,15 +33,15 @@ export class MainService {
           if (data) {
             let budgetRef = 'budgetHistory/' + username + '' + this.currentYear + '/' + this.currentMonth;
             let budgetRefYearly = 'budgetHistory/' + username + '' + this.currentYear;
-            localStorage['username'] = username;
-            localStorage['budgetRef'] = budgetRef;
-            localStorage['budgetRefYearly'] = budgetRefYearly;
+            window.localStorage['username'] = username;
+            window.localStorage['budgetRef'] = budgetRef;
+            window.localStorage['budgetRefYearly'] = budgetRefYearly;
             vm.router.navigate(['/today-budget', budgetRef]);
           }else {
             database.ref('users/' + username).set({
               username: username,
             });
-            localStorage['username'] = username;
+            window.localStorage['username'] = username;
             vm.router.navigate(['/add-budget', username]);
           }
     });
@@ -81,51 +69,17 @@ export class MainService {
   }
 
   moneyToSpend(budgetRef) {
-    if(localStorage.getItem('todaySpended')) {
-      return new Promise((resolve, reject)=>{
-        let data = localStorage.getItem('todaySpended')
-        resolve(data);
-      });
-    }else {
-      return database.ref(budgetRef).once('value');
-    }
+    return database.ref(budgetRef).once('value');
     // return new Observable((observer) => {
     //     let d = database.ref(budgetRef).once('value')
     //     observer.next(d);
     // });
   }
 
-  addInLocalStorage(prop,val){
-    let value = typeof val == 'object' ? JSON.stringify(val) : val;
-    try{
-        localStorage.setItem(prop, value);
-    }
-    catch(e){
-      if( e.code === 22 ){
-        // we've hit our local storage limit! lets remove 1/3rd of the entries (hopefully chronologically)
-        // and try again... If we fail to remove entries, lets silently give up
-        console.log('Local storage capacity reached.')
-      }
-    }
-  }
-
-  todaySpended(budgetRef, category, item, todaySpended, quantity): firebase.Promise<any> {
+  todaySpended(budgetRef, category, item, todaySpended, quantity) {
     let date = new Date();
-    if(localStorage){
-      return new Promise((resolve,reject)=>{
-        let obj = JSON.stringify({
-          category: category,
-          item: item,
-          quantity: quantity,
-          money: todaySpended
-        });
-        localStorage.setItem("userBudget", obj);
-        resolve();
-      });
-    }else {
-      return database.ref(budgetRef + '/Days/' + date).set({
-        category: category, item: item, quantity: quantity, money: todaySpended});    
-    }
+    return database.ref(budgetRef + '/Days/' + date).set({
+      category: category, item: item, quantity: quantity, money: todaySpended});
   }
 
   updatedBudget(budgetRef, updatedBudget) {
