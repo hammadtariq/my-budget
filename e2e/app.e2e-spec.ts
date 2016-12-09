@@ -1,10 +1,10 @@
-import { BudgetYourselfPage } from './app.po';
+import { MyBudgetPage } from './app.po';
 
-describe('budget-yourself App', function() {
-  let page: BudgetYourselfPage;
+describe('my-budget App', function() {
+  let page: MyBudgetPage;
 
   beforeEach(() => {
-    page = new BudgetYourselfPage();
+    page = new MyBudgetPage();
   });
 
   it('should display message saying app works', () => {

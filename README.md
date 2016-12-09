@@ -1,14 +1,8 @@
-# My Budget
+# MyBudget
 
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
 This project covers topics <b>Routing, Form validation, firebase sdk and angular material 2</b>
-It's a Progressive web app, so to save it on your mobile open options menu of your browser and choose "add to home screen":
-<div>
-<img src="savemobile.png" alt="screenshot" width="500" height="500">
-</div>
-
-
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.15.
-
+It's a Progressive web app, so to save it on your mobile open options menu of your browser and choose "add to home screen"
 #Demo
 https://todo-list-8f989.firebaseapp.com
 
@@ -29,7 +23,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Deploying to Github Pages
