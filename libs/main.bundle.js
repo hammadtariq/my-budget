@@ -1,13 +1,13 @@
 webpackJsonp([0,3],{
 
-/***/ 399:
+/***/ 375:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_main_service__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_main_service__ = __webpack_require__(78);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AddBudgetComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -30,7 +30,7 @@ var AddBudgetComponent = (function () {
         this.btnLabel = 'Add';
         this.dataRecieved = false;
         this.myForm = fb.group({
-            'income': ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* Validators */].required])],
+            'income': ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].required])],
             'saving': '',
         });
         // setValue: set values of all property
@@ -81,10 +81,10 @@ var AddBudgetComponent = (function () {
     AddBudgetComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["G" /* Component */])({
             selector: 'app-add-budget',
-            template: __webpack_require__(773),
-            styles: [__webpack_require__(768)]
+            template: __webpack_require__(754),
+            styles: [__webpack_require__(749)]
         }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["e" /* FormBuilder */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["e" /* FormBuilder */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__shared_main_service__["a" /* MainService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__shared_main_service__["a" /* MainService */]) === 'function' && _c) || Object])
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* FormBuilder */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* FormBuilder */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__shared_main_service__["a" /* MainService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__shared_main_service__["a" /* MainService */]) === 'function' && _c) || Object])
     ], AddBudgetComponent);
     return AddBudgetComponent;
     var _a, _b, _c;
@@ -93,7 +93,7 @@ var AddBudgetComponent = (function () {
 
 /***/ },
 
-/***/ 400:
+/***/ 376:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -116,8 +116,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["G" /* Component */])({
             selector: 'app-root',
-            template: __webpack_require__(774),
-            styles: [__webpack_require__(769)]
+            template: __webpack_require__(755),
+            styles: [__webpack_require__(750)]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
@@ -127,12 +127,12 @@ var AppComponent = (function () {
 
 /***/ },
 
-/***/ 401:
+/***/ 377:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_main_service__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_main_service__ = __webpack_require__(78);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return BudgetHistoryComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -186,8 +186,8 @@ var BudgetHistoryComponent = (function () {
     BudgetHistoryComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["G" /* Component */])({
             selector: 'app-budget-history',
-            template: __webpack_require__(775),
-            styles: [__webpack_require__(770)]
+            template: __webpack_require__(756),
+            styles: [__webpack_require__(751)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_main_service__["a" /* MainService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_main_service__["a" /* MainService */]) === 'function' && _a) || Object])
     ], BudgetHistoryComponent);
@@ -198,12 +198,12 @@ var BudgetHistoryComponent = (function () {
 
 /***/ },
 
-/***/ 402:
+/***/ 378:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_main_service__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_main_service__ = __webpack_require__(78);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return LandingPageComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -229,8 +229,8 @@ var LandingPageComponent = (function () {
     LandingPageComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["G" /* Component */])({
             selector: 'app-landing-page',
-            template: __webpack_require__(776),
-            styles: [__webpack_require__(771)]
+            template: __webpack_require__(757),
+            styles: [__webpack_require__(752)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_main_service__["a" /* MainService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_main_service__["a" /* MainService */]) === 'function' && _a) || Object])
     ], LandingPageComponent);
@@ -241,12 +241,12 @@ var LandingPageComponent = (function () {
 
 /***/ },
 
-/***/ 403:
+/***/ 379:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__main_service__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__main_service__ = __webpack_require__(78);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return CanActivateViaAuthGuard; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -277,15 +277,15 @@ var CanActivateViaAuthGuard = (function () {
 
 /***/ },
 
-/***/ 404:
+/***/ 380:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_main_service__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_form_validators__ = __webpack_require__(606);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_main_service__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_form_validators__ = __webpack_require__(587);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return TodayBudgetComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -314,9 +314,9 @@ var TodayBudgetComponent = (function () {
         this.myForm = fb.group({
             'quantity': [''],
             'unit': [''],
-            'category': ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* Validators */].required],
-            'itemName': ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_4__shared_form_validators__["a" /* itemNameValidator */]])],
-            'amount': ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_4__shared_form_validators__["b" /* amountValidator */]])],
+            'category': ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].required],
+            'itemName': ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_4__shared_form_validators__["a" /* itemNameValidator */]])],
+            'amount': ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_4__shared_form_validators__["b" /* amountValidator */]])],
         });
     }
     ;
@@ -388,10 +388,10 @@ var TodayBudgetComponent = (function () {
     TodayBudgetComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["G" /* Component */])({
             selector: 'app-today-budget',
-            template: __webpack_require__(777),
-            styles: [__webpack_require__(772)]
+            template: __webpack_require__(758),
+            styles: [__webpack_require__(753)]
         }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["e" /* FormBuilder */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["e" /* FormBuilder */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__shared_main_service__["a" /* MainService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__shared_main_service__["a" /* MainService */]) === 'function' && _c) || Object])
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* FormBuilder */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* FormBuilder */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__shared_main_service__["a" /* MainService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__shared_main_service__["a" /* MainService */]) === 'function' && _c) || Object])
     ], TodayBudgetComponent);
     return TodayBudgetComponent;
     var _a, _b, _c;
@@ -400,7 +400,7 @@ var TodayBudgetComponent = (function () {
 
 /***/ },
 
-/***/ 455:
+/***/ 432:
 /***/ function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -409,52 +409,52 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 455;
+webpackEmptyContext.id = 432;
 
 
 /***/ },
 
-/***/ 456:
+/***/ 433:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts__ = __webpack_require__(609);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts__ = __webpack_require__(590);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__polyfills_ts__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(577);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(558);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(608);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app___ = __webpack_require__(605);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(589);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app___ = __webpack_require__(586);
 
 
 
 
 
 if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["_34" /* enableProdMode */])();
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["_30" /* enableProdMode */])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_4__app___["a" /* AppModule */]);
 //# sourceMappingURL=/home/hammad/Projects/my-budget/src/main.js.map
 
 /***/ },
 
-/***/ 603:
+/***/ 584:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__(558);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_routing__ = __webpack_require__(604);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shared_auth_guard_service__ = __webpack_require__(403);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__shared_iteratableObject_pipe__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__shared_main_service__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__(400);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__landing_page_landing_page_component__ = __webpack_require__(402);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__add_budget_add_budget_component__ = __webpack_require__(399);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__today_budget_today_budget_component__ = __webpack_require__(404);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__budget_history_budget_history_component__ = __webpack_require__(401);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__(535);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_routing__ = __webpack_require__(585);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shared_auth_guard_service__ = __webpack_require__(379);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__shared_iteratableObject_pipe__ = __webpack_require__(588);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__shared_main_service__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__(376);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__landing_page_landing_page_component__ = __webpack_require__(378);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__add_budget_add_budget_component__ = __webpack_require__(375);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__today_budget_today_budget_component__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__budget_history_budget_history_component__ = __webpack_require__(377);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -495,7 +495,7 @@ var AppModule = (function () {
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["d" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2__angular_forms__["b" /* FormsModule */],
-                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* ReactiveFormsModule */],
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["e" /* ReactiveFormsModule */],
                 __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_5__app_routing__["a" /* routing */],
                 __WEBPACK_IMPORTED_MODULE_4__angular_material__["a" /* MaterialModule */].forRoot(),
@@ -511,16 +511,16 @@ var AppModule = (function () {
 
 /***/ },
 
-/***/ 604:
+/***/ 585:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__landing_page_landing_page_component__ = __webpack_require__(402);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_budget_add_budget_component__ = __webpack_require__(399);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__today_budget_today_budget_component__ = __webpack_require__(404);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__budget_history_budget_history_component__ = __webpack_require__(401);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__shared_auth_guard_service__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__landing_page_landing_page_component__ = __webpack_require__(378);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_budget_add_budget_component__ = __webpack_require__(375);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__today_budget_today_budget_component__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__budget_history_budget_history_component__ = __webpack_require__(377);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__shared_auth_guard_service__ = __webpack_require__(379);
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return appRoutingProviders; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return routing; });
 
@@ -534,6 +534,7 @@ var appRoutes = [
     { path: 'today-budget/:budgetRef', component: __WEBPACK_IMPORTED_MODULE_3__today_budget_today_budget_component__["a" /* TodayBudgetComponent */] },
     { path: 'budget-history', component: __WEBPACK_IMPORTED_MODULE_4__budget_history_budget_history_component__["a" /* BudgetHistoryComponent */] },
     { path: '', component: __WEBPACK_IMPORTED_MODULE_1__landing_page_landing_page_component__["a" /* LandingPageComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_5__shared_auth_guard_service__["a" /* CanActivateViaAuthGuard */]], },
+    { path: 'my-budget', component: __WEBPACK_IMPORTED_MODULE_1__landing_page_landing_page_component__["a" /* LandingPageComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_5__shared_auth_guard_service__["a" /* CanActivateViaAuthGuard */]], },
 ];
 var appRoutingProviders = [];
 var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["c" /* RouterModule */].forRoot(appRoutes);
@@ -541,12 +542,12 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["c" /* RouterModule 
 
 /***/ },
 
-/***/ 605:
+/***/ 586:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_component__ = __webpack_require__(400);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(603);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_component__ = __webpack_require__(376);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(584);
 /* unused harmony namespace reexport */
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__app_module__["a"]; });
 
@@ -555,7 +556,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["c" /* RouterModule 
 
 /***/ },
 
-/***/ 606:
+/***/ 587:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -576,7 +577,7 @@ function amountValidator(control) {
 
 /***/ },
 
-/***/ 607:
+/***/ 588:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -627,7 +628,7 @@ var IteratableObjectPipe = (function () {
 
 /***/ },
 
-/***/ 608:
+/***/ 589:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -643,41 +644,41 @@ var environment = {
 
 /***/ },
 
-/***/ 609:
+/***/ 590:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__ = __webpack_require__(623);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__ = __webpack_require__(604);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__ = __webpack_require__(616);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__ = __webpack_require__(597);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__ = __webpack_require__(612);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__ = __webpack_require__(593);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__ = __webpack_require__(618);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__ = __webpack_require__(599);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__ = __webpack_require__(617);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__ = __webpack_require__(598);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__ = __webpack_require__(615);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__ = __webpack_require__(596);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__ = __webpack_require__(614);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__ = __webpack_require__(595);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__ = __webpack_require__(622);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__ = __webpack_require__(603);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__ = __webpack_require__(611);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__ = __webpack_require__(592);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__ = __webpack_require__(610);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__ = __webpack_require__(591);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__ = __webpack_require__(620);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__ = __webpack_require__(601);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__ = __webpack_require__(613);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__ = __webpack_require__(594);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__ = __webpack_require__(621);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__ = __webpack_require__(602);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__ = __webpack_require__(619);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__ = __webpack_require__(600);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__ = __webpack_require__(624);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__ = __webpack_require__(605);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(810);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(790);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__);
 
 
@@ -699,93 +700,85 @@ var environment = {
 
 /***/ },
 
-/***/ 768:
+/***/ 749:
 /***/ function(module, exports) {
 
 module.exports = ".budget-input{\n    width: 90%;\n}\n"
 
 /***/ },
 
-/***/ 769:
+/***/ 750:
 /***/ function(module, exports) {
 
 module.exports = ""
 
 /***/ },
 
-/***/ 770:
+/***/ 751:
 /***/ function(module, exports) {
 
 module.exports = ".historyTable{\n    width: 100%;\n    padding: 20px;\n    \n}\n\n.tRow{\n    padding: 20px;\n    border: 1px solid lightslategray;\n}\n\n.saving{\n\tfloat: right;\n\tfont-weight: normal;\n\tfont-size: 16px;\n}\n\n.historyCard{\n\toverflow: auto;\n\tmax-height:400px;\n}\n\n.monthText{\n\ttext-align:left;\n}\n\n.mainCard{\n\tmargin-top: 4vh;\n}\n\n.spinner{\n\tmargin-left:44%;\n\tmargin-top:5vh\n}\n\n.backBtn{\n\ttext-align: left\n}"
 
 /***/ },
 
-/***/ 771:
+/***/ 752:
 /***/ function(module, exports) {
 
 module.exports = ".username-input{\n    padding: 10px;\n    width: 90%;\n}\n\n"
 
 /***/ },
 
-/***/ 772:
+/***/ 753:
 /***/ function(module, exports) {
 
 module.exports = ".budget-input{\n    width: 96%;\n}\n\n.amount{\n    font-weight: 20px;\n    color: slateblue\n}\n\n.mainCard{\n    margin-top: 10px;\n}\n\n.btn{\n    margin: 2px;\n}\n\n.example-fill-remaining-space {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 auto;\n          flex: 1 1 auto;\n}\n\n.selectBox{\n    width: 96%;\n    margin: 15px 0 15px 0;\n    padding: 5px;\n    border-radius: 2px;\n    background: #FFFAD3;\n}\n\ntable{\n    width: 98%;\n    margin-left: 0.8%;\n}\n\n@media \nonly screen and (max-width: 760px),\n(min-device-width: 768px) and (max-device-width: 1024px)  {\n\ntable{\n    width: 100%;\n    margin: 0 auto;\n}\n\t\n}\n"
 
 /***/ },
 
-/***/ 773:
+/***/ 754:
 /***/ function(module, exports) {
 
-module.exports = "<md-toolbar class=\"toolbar\">\n  <span><img class=\"logoImg\" src=\"../../images/wallet.png\" alt=\"\"></span>\n  <span style=\"font-family:cursive;\">My Budget</span>\n</md-toolbar>\n<md-progress-bar *ngIf=\"editFlag && !dataRecieved\" mode=\"indeterminate\" color=\"warn\"></md-progress-bar>\n\n<div class=\"main\">\n\n  <md-card style=\"margin-top: 20vh;\">\n    <md-card-content>\n          \n          <form *ngIf=\"!editFlag\" [formGroup]=\"myForm\"  (ngSubmit)=\"totalIncome(myForm.value);\">\n            <div>\n              <md-input class=\"budget-input\" [placeholder]=\"placeholderText\" type=\"text\" formControlName=\"income\" [class.error]=\"myForm.controls['income'].touched\">\n                <span md-suffix>&nbsp;Rs</span>\n              </md-input>\n              <md-input class=\"budget-input\" placeholder=\"Amount you want to save(optional)\" type=\"text\" formControlName=\"saving\" [class.error]=\"myForm.controls['saving'].touched\">\n                <span md-suffix>&nbsp;Rs</span>\n              </md-input>\n              <div class=\"err\" *ngIf=\"myForm.controls['saving'].value > myForm.controls['income'].value\">you can't save more than provided income</div>\n              <div class=\"err\" *ngIf=\"myForm.controls['income'].hasError('required') && myForm.controls['income'].touched\">income is required</div>\n              <div class=\"err\" *ngIf=\"myForm.controls['saving'].hasError('required') && myForm.controls['saving'].touched\">saving is required</div>\n            </div>\n            <div *ngIf=\"!myForm.valid && myForm.dirty\" class=\"err\">Some form field values are invalid</div>\n            <button md-raised-button color=\"warn\" type=\"submit\" [disabled]=\"!myForm.valid\">Submit</button>\n          </form>\n\n          <form *ngIf=\"editFlag\" [formGroup]=\"myForm\" (ngSubmit)=\"editIncome(myForm.value);\">\n            <div>\n              <md-input [value]=\"oldIncome.totalIncome\" class=\"budget-input\" [placeholder]=\"placeholderText\" type=\"text\" formControlName=\"income\" [class.error]=\"myForm.controls['income'].touched\">\n                <span md-suffix>&nbsp;Rs</span>\n              </md-input>\n              <md-input [value]=\"oldIncome.totalSaving\" class=\"budget-input\" placeholder=\"Amount you want to save(optional)\" type=\"text\" formControlName=\"saving\" >\n                <span md-suffix>&nbsp;Rs</span>\n              </md-input>\n              <div class=\"err\" *ngIf=\"myForm.controls['saving'].value > myForm.controls['income'].value\">you can't save more than provided income</div>\n              <div class=\"err\" *ngIf=\"myForm.controls['income'].hasError('required') && myForm.controls['income'].touched\">income is required</div>\n              <!--<div class=\"err\" *ngIf=\"myForm.controls['saving'].hasError('required') && myForm.controls['saving'].touched\">saving is required</div>-->\n            </div>\n            <div *ngIf=\"!myForm.valid && myForm.dirty\" class=\"err\">Some form field values are invalid</div>\n            <div>\n              <button md-raised-button color=\"warn\" type=\"submit\" [disabled]=\"!myForm.valid\">Save</button>\n              <button md-raised-button color=\"warn\" type=\"button\" (click)=\"cancelEdit();\">Cancel</button>  \n            </div>\n          </form>\n    </md-card-content>\n  </md-card>\n\n</div>\n\n\n"
+module.exports = "<md-toolbar class=\"toolbar\">\n  <span><img class=\"logoImg\" src=\"../../images/wallet2.png\" alt=\"\"></span>\n  <span style=\"font-family:cursive;\">My Budget</span>\n</md-toolbar>\n<md-progress-bar *ngIf=\"editFlag && !dataRecieved\" mode=\"indeterminate\" color=\"warn\"></md-progress-bar>\n\n<div class=\"main\">\n\n  <md-card style=\"margin-top: 20vh;\">\n    <md-card-content>\n          \n          <form *ngIf=\"!editFlag\" [formGroup]=\"myForm\"  (ngSubmit)=\"totalIncome(myForm.value);\">\n            <div>\n              <md-input class=\"budget-input\" [placeholder]=\"placeholderText\" type=\"text\" formControlName=\"income\" [class.error]=\"myForm.controls['income'].touched\">\n                <span md-suffix>&nbsp;Rs</span>\n              </md-input>\n              <md-input class=\"budget-input\" placeholder=\"Amount you want to save(optional)\" type=\"text\" formControlName=\"saving\" [class.error]=\"myForm.controls['saving'].touched\">\n                <span md-suffix>&nbsp;Rs</span>\n              </md-input>\n              <div class=\"err\" *ngIf=\"myForm.controls['saving'].value > myForm.controls['income'].value\">you can't save more than provided income</div>\n              <div class=\"err\" *ngIf=\"myForm.controls['income'].hasError('required') && myForm.controls['income'].touched\">income is required</div>\n              <div class=\"err\" *ngIf=\"myForm.controls['saving'].hasError('required') && myForm.controls['saving'].touched\">saving is required</div>\n            </div>\n            <div *ngIf=\"!myForm.valid && myForm.dirty\" class=\"err\">Some form field values are invalid</div>\n            <button md-raised-button color=\"warn\" type=\"submit\" [disabled]=\"!myForm.valid\">Submit</button>\n          </form>\n\n          <form *ngIf=\"editFlag\" [formGroup]=\"myForm\" (ngSubmit)=\"editIncome(myForm.value);\">\n            <div>\n              <md-input [value]=\"oldIncome.totalIncome\" class=\"budget-input\" [placeholder]=\"placeholderText\" type=\"text\" formControlName=\"income\" [class.error]=\"myForm.controls['income'].touched\">\n                <span md-suffix>&nbsp;Rs</span>\n              </md-input>\n              <md-input [value]=\"oldIncome.totalSaving\" class=\"budget-input\" placeholder=\"Amount you want to save(optional)\" type=\"text\" formControlName=\"saving\" >\n                <span md-suffix>&nbsp;Rs</span>\n              </md-input>\n              <div class=\"err\" *ngIf=\"myForm.controls['saving'].value > myForm.controls['income'].value\">you can't save more than provided income</div>\n              <div class=\"err\" *ngIf=\"myForm.controls['income'].hasError('required') && myForm.controls['income'].touched\">income is required</div>\n              <!--<div class=\"err\" *ngIf=\"myForm.controls['saving'].hasError('required') && myForm.controls['saving'].touched\">saving is required</div>-->\n            </div>\n            <div *ngIf=\"!myForm.valid && myForm.dirty\" class=\"err\">Some form field values are invalid</div>\n            <div>\n              <button md-raised-button color=\"warn\" type=\"submit\" [disabled]=\"!myForm.valid\">Save</button>\n              <button md-raised-button color=\"warn\" type=\"button\" (click)=\"cancelEdit();\">Cancel</button>  \n            </div>\n          </form>\n    </md-card-content>\n  </md-card>\n\n</div>\n\n\n"
 
 /***/ },
 
-/***/ 774:
+/***/ 755:
 /***/ function(module, exports) {
 
 module.exports = "<div>\n  <router-outlet></router-outlet>\n</div>\n"
 
 /***/ },
 
-/***/ 775:
+/***/ 756:
 /***/ function(module, exports) {
 
-module.exports = "<md-toolbar class=\"toolbar\">\n  <span><img class=\"logoImg\" src=\"../../images/wallet.png\" alt=\"logo\"></span>\n  <span style=\"font-family:cursive;\">My Budget</span>\n</md-toolbar>\n<md-progress-bar *ngIf=\"!dataRecieved\" mode=\"indeterminate\" color=\"warn\"></md-progress-bar>\n\n<div class=\"main\">\n  \n  <div class=\"backBtn\">\n    <button flex md-raised-button color=\"warn\" routerLink='/today-budget/back'>Back</button>\n  </div>\n  <!--<div class=\"spinner\" *ngIf=\"!dataRecieved\"><md-spinner color=\"warn\"></md-spinner></div>-->\n  <div *ngIf=\"dataRecieved\" #modal>\n    <md-card class=\"mainCard\" *ngFor='let month of history | iterateObject:\"key\":true; let id=index' >\n      <p class=\"display-2\" *ngIf=\"!month.Days\">{{message || \"Currently no history available to show\"}} </p>\n      <md-card-content class=\"historyCard\" *ngIf=\"month.Days\" layout=\"row\" >\n          <h3 (click)=\"toggleMe(id)\" class=\"monthText\">{{month.k}} <span class=\"saving\">saved: {{month.updatedBudget}} Rs</span></h3>\n          <table *ngIf=\"toggle == id\" class=\"historyTable\" layout=\"row\" flex>\n            <tr>\n              <th class=\"tRow\">Day</th>\n              <th class=\"tRow\">Category</th>\n              <th class=\"tRow\">Item</th>\n              <th class=\"tRow\">Quantity</th>\n              <th class=\"tRow\">Amount</th>\n            </tr>\n            <tr *ngFor=\"let item of month.Days | iterateObject:'key':true\">\n              <td class=\"tRow\">{{item.k | date:\"shortDate\"}} {{item.k | date:\"HH:mm\"}}</td>\n              <td class=\"tRow\">{{item.category}}</td>\n              <td class=\"tRow\">{{item.item}}</td>\n              <td class=\"tRow\">{{item.quantity || \"not defined\"}}</td>\n              <td class=\"tRow\">{{item.money}}</td>\n            </tr>\n          </table>\n      </md-card-content>\n    </md-card>\n  </div>\n  \n</div>\n\n"
+module.exports = "<md-toolbar class=\"toolbar\">\n  <span><img class=\"logoImg\" src=\"../../images/wallet2.png\" alt=\"logo\"></span>\n  <span style=\"font-family:cursive;\">My Budget</span>\n</md-toolbar>\n<md-progress-bar *ngIf=\"!dataRecieved\" mode=\"indeterminate\" color=\"warn\"></md-progress-bar>\n\n<div class=\"main\">\n  \n  <div class=\"backBtn\">\n    <button flex md-raised-button color=\"warn\" routerLink='/today-budget/back'>Back</button>\n  </div>\n  <!--<div class=\"spinner\" *ngIf=\"!dataRecieved\"><md-spinner color=\"warn\"></md-spinner></div>-->\n  <div *ngIf=\"dataRecieved\" #modal>\n    <md-card class=\"mainCard\" *ngFor='let month of history | iterateObject:\"key\":true; let id=index' >\n      <p class=\"display-2\" *ngIf=\"!month.Days\">{{message || \"Currently no history available to show\"}} </p>\n      <md-card-content class=\"historyCard\" *ngIf=\"month.Days\" layout=\"row\" >\n          <h3 (click)=\"toggleMe(id)\" class=\"monthText\">{{month.k}} <span class=\"saving\">saved: {{month.updatedBudget}} Rs</span></h3>\n          <table *ngIf=\"toggle == id\" class=\"historyTable\" layout=\"row\" flex>\n            <tr>\n              <th class=\"tRow\">Day</th>\n              <th class=\"tRow\">Category</th>\n              <th class=\"tRow\">Item</th>\n              <th class=\"tRow\">Quantity</th>\n              <th class=\"tRow\">Amount</th>\n            </tr>\n            <tr *ngFor=\"let item of month.Days | iterateObject:'key':true\">\n              <td class=\"tRow\">{{item.k | date:\"shortDate\"}} {{item.k | date:\"HH:mm\"}}</td>\n              <td class=\"tRow\">{{item.category}}</td>\n              <td class=\"tRow\">{{item.item}}</td>\n              <td class=\"tRow\">{{item.quantity || \"not defined\"}}</td>\n              <td class=\"tRow\">{{item.money}}</td>\n            </tr>\n          </table>\n      </md-card-content>\n    </md-card>\n  </div>\n  \n</div>\n\n"
 
 /***/ },
 
-/***/ 776:
+/***/ 757:
 /***/ function(module, exports) {
 
-module.exports = "<md-toolbar class=\"toolbar\">\n  <span><img class=\"logoImg\" src=\"../../images/wallet.png\" alt=\"\"></span>\n  <span style=\"font-family:cursive;\">My Budget</span>\n</md-toolbar>\n\n<div layout=\"row\" layout-padding layout-margin layout-fill style=\"min-height: 224px; margin-top: 20vh;\">\n  <md-card flex>\n    <md-card-header>\n        <md-card-title>Manage your monthly budget easily</md-card-title>\n    </md-card-header>\n    <md-card-content>\n          <md-input class=\"username-input\" type=\"text\" name=\"username\" #username (keyup.enter)=\"getStarted(username.value)\" placeholder=\"Enter your name\">\n          </md-input>\n          <button md-raised-button color=\"warn\" *ngIf=\"username.value !== ''\" (click)=\"getStarted(username.value)\">Get Started</button>\n    </md-card-content>\n  </md-card>\n  \n</div>\n\n"
+module.exports = "<md-toolbar class=\"toolbar\">\n  <span><img class=\"logoImg\" src=\"../../images/wallet2.png\" alt=\"\"></span>\n  <span style=\"font-family:cursive;\">My Budget</span>\n</md-toolbar>\n\n<div layout=\"row\" layout-padding layout-margin layout-fill style=\"min-height: 224px; margin-top: 20vh;\">\n  <md-card flex>\n    <md-card-header>\n        <md-card-title>Manage your monthly budget easily</md-card-title>\n    </md-card-header>\n    <md-card-content>\n          <md-input class=\"username-input\" type=\"text\" name=\"username\" #username (keyup.enter)=\"getStarted(username.value)\" placeholder=\"Enter your name\">\n          </md-input>\n          <button md-raised-button color=\"warn\" *ngIf=\"username.value !== ''\" (click)=\"getStarted(username.value)\">Get Started</button>\n    </md-card-content>\n  </md-card>\n  \n</div>\n\n"
 
 /***/ },
 
-/***/ 777:
+/***/ 758:
 /***/ function(module, exports) {
 
-module.exports = "<md-toolbar class=\"toolbar\">\n  <span><img class=\"logoImg\" src=\"../../images/wallet.png\" alt=\"\"></span>\n  <span style=\"font-family:cursive;\">My Budget</span>\n  <!-- This fills the remaining space of the current row -->\n  <span class=\"example-fill-remaining-space\"></span>\n\n  <span><button flex=\"auto\" md-raised-button color=\"warn\" (click)=\"logout()\">Logout</button></span>\n</md-toolbar>\n<md-progress-bar *ngIf=\"!dataRecieved\" mode=\"indeterminate\" color=\"warn\"></md-progress-bar>\n\n\n<div layout=\"row\" style=\"margin-top: 4vh;\">\n  <div layout=\"row\">\n    <button flex=\"auto\" md-raised-button color=\"warn\" class=\"btn\" routerLink='/add-budget/edit'>Update Budget</button>\n    <button flex=\"auto\" md-raised-button color=\"warn\" class=\"btn\" routerLink='/budget-history'>Budget History</button>\n  </div>\n  {{getBudgetInfo() | async}}\n  <md-card layout=\"row\" style=\"margin-top: 4vh; margin:4vh 10px 0 10px;\" layout-align=\"center center\">\n    <!--<div style=\"margin-left:40%\" *ngIf=\"!dataRecieved\"><md-spinner color=\"warn\"></md-spinner></div>-->\n    <md-card-content *ngIf=\"dataRecieved\">\n      <p align='right'>{{days}} days left</p>\n      <p></p>\n      <p class=\"md-body-2\">Total Budget: <span class=\"amount\">{{budgetInfo.budget}} Rs</span></p>\n      <p class=\"md-body-2\" *ngIf=\"budgetInfo.update != '' \">Total Budget Left: <span style=\"color:red\">{{budgetInfo.update}} Rs</span></p>\n      <h3 class=\"md-display-2\">Amount you can spend per day: <span style=\"color:green\">{{budgetInfo.spend}} Rs</span></h3>\n      <p class=\"md-body-2\" style=\"color:green;margin:3px;\">{{message}}</p>\n      <form [formGroup]=\"myForm\" (ngSubmit)=\"totalSpended(myForm);\">\n          <div>\n            <select class=\"selectBox\" [formControl]=\"myForm.controls['category']\">\n              <option selected disabled>Choose category</option>\n              <option *ngFor=\"let category of categories;\" [value]=\"category\">\n                {{category}}\n              </option>\n            </select>  \n          </div>\n          <div>\n            <md-input class=\"budget-input\" [formControl]=\"myForm.controls['itemName']\" [class.error]=\"myForm.controls['itemName'].touched && myForm.controls['itemName'].hasError('invaliditemName')\" type=\"text\" placeholder=\"Item Name\">\n            </md-input>\n            <div class=\"err\" *ngIf=\"myForm.controls['itemName'].hasError('required') && myForm.controls['itemName'].touched\">item name is required</div>\n            <div class=\"err\" *ngIf=\"myForm.controls['itemName'].hasError('invaliditemName') && myForm.controls['itemName'].dirty\">item name should be a text value</div>  \n          </div>\n          <table cellspacing=\"0\">\n            <tr>\n              <td>\n                <md-input class=\"budget-input\" [formControl]=\"myForm.controls['quantity']\" type=\"number\" placeholder=\"Quantity (optional)\"></md-input>\n              </td>\n              <td>\n                <select class=\"selectBox\" [formControl]=\"myForm.controls['unit']\">\n                  <option selected disabled>Choose unit</option>\n                  <option *ngFor=\"let unit of units;\" [value]=\"unit\">\n                    {{unit}}\n                  </option>\n                </select>\n              </td>\n            </tr>\n          </table>\n          <div>\n            <md-input class=\"budget-input\" [formControl]=\"myForm.controls['amount']\" [class.error]=\"myForm.controls['amount'].touched && myForm.controls['amount'].hasError('invalidAmount')\" type=\"text\" placeholder=\"Amount\">\n              <span md-suffix>&nbsp;Rs</span>\n            </md-input>\n            <div class=\"err\" *ngIf=\"myForm.controls['amount'].value > budgetCheck()\">you are out of your budget for this amount, please update your budget</div>\n            <div class=\"err\" *ngIf=\"myForm.controls['amount'].hasError('required') && myForm.controls['amount'].touched\">amount is required</div>\n            <div class=\"err\" *ngIf=\"myForm.controls['amount'].hasError('invalidAmount') && myForm.controls['amount'].dirty\">amount should be a numeric value</div>\n          </div>\n          <div *ngIf=\"!myForm.valid && myForm.dirty\" class=\"err\">Some form field values are invalid</div>\n          <button md-raised-button color=\"warn\" type=\"submit\" [disabled]=\"!myForm.valid\">Submit</button>\n      </form>\n    </md-card-content>\n  </md-card>\n\n</div>"
+module.exports = "<md-toolbar class=\"toolbar\">\n  <span><img class=\"logoImg\" src=\"../../images/wallet2.png\" alt=\"\"></span>\n  <span style=\"font-family:cursive;\">My Budget</span>\n  <!-- This fills the remaining space of the current row -->\n  <span class=\"example-fill-remaining-space\"></span>\n\n  <span><button flex=\"auto\" md-raised-button color=\"warn\" (click)=\"logout()\">Logout</button></span>\n</md-toolbar>\n<md-progress-bar *ngIf=\"!dataRecieved\" mode=\"indeterminate\" color=\"warn\"></md-progress-bar>\n\n\n<div layout=\"row\" style=\"margin-top: 4vh;\">\n  <div layout=\"row\">\n    <button flex=\"auto\" md-raised-button color=\"warn\" class=\"btn\" routerLink='/add-budget/edit'>Update Budget</button>\n    <button flex=\"auto\" md-raised-button color=\"warn\" class=\"btn\" routerLink='/budget-history'>Budget History</button>\n  </div>\n  {{getBudgetInfo() | async}}\n  <md-card layout=\"row\" style=\"margin-top: 4vh; margin:4vh 10px 0 10px;\" layout-align=\"center center\">\n    <!--<div style=\"margin-left:40%\" *ngIf=\"!dataRecieved\"><md-spinner color=\"warn\"></md-spinner></div>-->\n    <md-card-content *ngIf=\"dataRecieved\">\n      <p align='right'>{{days}} days left</p>\n      <p></p>\n      <p class=\"md-body-2\">Total Budget: <span class=\"amount\">{{budgetInfo.budget}} Rs</span></p>\n      <p class=\"md-body-2\" *ngIf=\"budgetInfo.update != '' \">Total Budget Left: <span style=\"color:red\">{{budgetInfo.update}} Rs</span></p>\n      <h3 class=\"md-display-2\">Amount you can spend per day: <span style=\"color:green\">{{budgetInfo.spend}} Rs</span></h3>\n      <p class=\"md-body-2\" style=\"color:green;margin:3px;\">{{message}}</p>\n      <form [formGroup]=\"myForm\" (ngSubmit)=\"totalSpended(myForm);\">\n          <div>\n            <select class=\"selectBox\" [formControl]=\"myForm.controls['category']\">\n              <option selected disabled>Choose category</option>\n              <option *ngFor=\"let category of categories;\" [value]=\"category\">\n                {{category}}\n              </option>\n            </select>  \n          </div>\n          <div>\n            <md-input class=\"budget-input\" [formControl]=\"myForm.controls['itemName']\" [class.error]=\"myForm.controls['itemName'].touched && myForm.controls['itemName'].hasError('invaliditemName')\" type=\"text\" placeholder=\"Item Name\">\n            </md-input>\n            <div class=\"err\" *ngIf=\"myForm.controls['itemName'].hasError('required') && myForm.controls['itemName'].touched\">item name is required</div>\n            <div class=\"err\" *ngIf=\"myForm.controls['itemName'].hasError('invaliditemName') && myForm.controls['itemName'].dirty\">item name should be a text value</div>  \n          </div>\n          <table cellspacing=\"0\">\n            <tr>\n              <td>\n                <md-input class=\"budget-input\" [formControl]=\"myForm.controls['quantity']\" type=\"number\" placeholder=\"Quantity (optional)\"></md-input>\n              </td>\n              <td>\n                <select class=\"selectBox\" [formControl]=\"myForm.controls['unit']\">\n                  <option selected disabled>Choose unit</option>\n                  <option *ngFor=\"let unit of units;\" [value]=\"unit\">\n                    {{unit}}\n                  </option>\n                </select>\n              </td>\n            </tr>\n          </table>\n          <div>\n            <md-input class=\"budget-input\" [formControl]=\"myForm.controls['amount']\" [class.error]=\"myForm.controls['amount'].touched && myForm.controls['amount'].hasError('invalidAmount')\" type=\"text\" placeholder=\"Amount\">\n              <span md-suffix>&nbsp;Rs</span>\n            </md-input>\n            <div class=\"err\" *ngIf=\"myForm.controls['amount'].value > budgetCheck()\">you are out of your budget for this amount, please update your budget</div>\n            <div class=\"err\" *ngIf=\"myForm.controls['amount'].hasError('required') && myForm.controls['amount'].touched\">amount is required</div>\n            <div class=\"err\" *ngIf=\"myForm.controls['amount'].hasError('invalidAmount') && myForm.controls['amount'].dirty\">amount should be a numeric value</div>\n          </div>\n          <div *ngIf=\"!myForm.valid && myForm.dirty\" class=\"err\">Some form field values are invalid</div>\n          <button md-raised-button color=\"warn\" type=\"submit\" [disabled]=\"!myForm.valid\">Submit</button>\n      </form>\n    </md-card-content>\n  </md-card>\n\n</div>"
 
 /***/ },
 
-/***/ 811:
-/***/ function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(456);
-
-
-/***/ },
-
-/***/ 82:
+/***/ 78:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_firebase__ = __webpack_require__(764);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_firebase__ = __webpack_require__(745);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_firebase__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(239);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
 /* unused harmony export firebaseConfig */
 /* unused harmony export database */
@@ -996,7 +989,15 @@ var MainService = (function () {
 }());
 //# sourceMappingURL=/home/hammad/Projects/my-budget/src/main.service.js.map
 
+/***/ },
+
+/***/ 791:
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(433);
+
+
 /***/ }
 
-},[811]);
+},[791]);
 //# sourceMappingURL=main.bundle.map
