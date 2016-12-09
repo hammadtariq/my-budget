@@ -1,0 +1,63 @@
+.budget-input{
+    width: 96%;
+}
+
+.amount{
+    font-weight: 20px;
+    color: slateblue
+}
+
+.mainCard{
+    margin-top: 10px;
+}
+
+.btn{
+    margin: 2px;
+}
+
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.selectBox{
+    width: 96%;
+    margin: 15px 0 15px 0;
+    padding: 5px;
+    border-radius: 2px;
+    background: #FFFAD3;
+}
+
+table{
+    width: 98%;
+    margin-left: 0.8%;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+table{
+    width: 100%;
+    margin: 0 auto;
+}
+	
+	/*thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	td { 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}*/
+}
